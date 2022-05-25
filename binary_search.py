@@ -16,5 +16,8 @@ def binary_search(_list, item):
 
 
 if __name__ == "__main__":
-    position = binary_search([2, 3, 5, 7, 8, 9, 12, 24, 32], 12)
+    position = binary_search(
+        [2, 3, 5, 7, 8, 9, 12, 24, 32],
+        12,
+    )
     print(position)
